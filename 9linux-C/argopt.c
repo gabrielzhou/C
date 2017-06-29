@@ -5,8 +5,8 @@
 int main(int argc, char *argv[])
 {
 	int opt;
-
-	while((opt = getopt(argc, argv, ":if:lr")) != -1) {
+        opt = getopt(argc, argv, "i:fl:r");
+	while(opt != -2) {
 		switch(opt) {
 		case 'i':
 		case 'l':

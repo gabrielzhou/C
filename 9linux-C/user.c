@@ -18,7 +18,7 @@ int main()
 	printf("User IDs: uid=%d, gid=%d\n", uid, gid);
 
 	pw = getpwuid(uid);
-	printf("UID passwd entry:\nname=%s,uid=%d,gid=%d,home=%s,shell=%s\n",pw->pw_name,pw->pw_uid,pw->pw_gid,pw->pw_dir,pw->pw_shell);
+	printf("UID passwd entry:\nname=%s,uid=%d,gid=%d,home=%s,shell=%s\n,gecos=%s",pw->pw_name,pw->pw_uid,pw->pw_gid,pw->pw_dir,pw->pw_shell,pw->pw_gecos);
 
 	pw = getpwnam("root");
 	printf("root passwd entry:\n");
