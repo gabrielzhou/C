@@ -1,0 +1,3 @@
+fprintf和fscanf除了比printf和scanf多了一个句柄之外，其他的和他们一模一样。实际上可以用stdout这个句柄使双方相等
+06.c无法执行
+07.c无法运行
