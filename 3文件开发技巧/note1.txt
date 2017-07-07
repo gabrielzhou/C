@@ -1,0 +1,1 @@
+16.c里面的searchpath是vc的库函数，在linux无法使用
