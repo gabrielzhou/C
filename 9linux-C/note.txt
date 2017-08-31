@@ -1,0 +1,7 @@
+learn the function: time,read,write,gmtime,localtime,syslog
+lear the function for getuid,getgid,tmpnam,tmpfile
+learn the function for strftime,strcpy,strptime
+**environ是linux环境变量的数组，*environ代表每一个组值，每次引用的时候，需要用extern char **environ定义下
+learn the function for opendir
+learn the function for the chdir,this function is change the dirctory
+learn the function for the readdir,lstat
