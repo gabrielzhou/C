@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<unistd.h>
+#include<sys/stat.h>
+#include<fcntl.h>
+#include<stdlib.h>
+
+void main(int argc,char *argv[])
+{
+	char c,list[100];
+	int in,out;
+	char *file_1,*file_2;
+	printf("argv[1] is %s\n",argv[1]);
+	printf("argv[2] is %s\n",argv[2]);
+	in = open(argv[1],O_RDONLY);
+	if(in==-1)
+		printf("%s can not open\n",f
